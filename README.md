@@ -1,7 +1,7 @@
 # Bitcoin Graffiti
 *Engrave ASCII art unto the Bitcoin blockchain*
 
-![ASCII SAYLOR](http://url/to/img.png)
+![ASCII SAYLOR](https://github.com/sjorsvanheuveln/bitcoin_graffiti/blob/main/saylor.png)
 
 ## Features
 This project is under construction. But these features are currently available:
