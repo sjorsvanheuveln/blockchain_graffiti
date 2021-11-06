@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
-''' Saylor ASCII Art Project
+''' Engraving ASCII art on the bitcoin blockchain (aka bitcoin graffiti)
     Sjors van Heuveln 06-11-2021
-    Description: Prepatory work for engraving saylor on mainnet/testnet in a transaction.
-    Resources: https://cloudapps.herokuapp.com/imagetoascii/
+    Description: Serializes ASCII art and envelopes it into a valid bitcoin (testnet) transaction.
+    Make your own ASCII: https://cloudapps.herokuapp.com/imagetoascii/
 '''
 
 from art import saylor

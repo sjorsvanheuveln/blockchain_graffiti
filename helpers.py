@@ -1,15 +1,3 @@
-def insert_carriage_return_hex(s, width):
-    ''' Inserts carriage returns for hexstring art
-        This I learned from the rich astley block, where 0a encodes for a carriage return.
-        https://www.blockchain.com/btc/tx/d29c9c0e8e4d2a9790922af73f0b8d51f0bd4bb19940d9cf910ead8fbe85bc9b
-    '''
-
-    new_s = ''
-    for i in range(0,len(s), width):
-        new_s += s[i : (i + width)] + '0a'
-
-    return new_s
-
 def insert_carriage_return_bytes(b, width):
     ''' Inserts carriage returns for bytearray art
         This I learned from the rich astley block, where 0a encodes for a carriage return.
