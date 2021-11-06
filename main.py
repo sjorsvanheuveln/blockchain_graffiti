@@ -11,9 +11,11 @@ from helpers import *
 
 width = 40 #in chars -> 80 in hex
 saylor_bytes = bytes(saylor, 'ascii')
+print(saylor_bytes.hex())
 saylor_return = insert_carriage_return_bytes(saylor_bytes, width)
 
 #print ze art
 print('\n')
 print(saylor_return.decode('ascii'))
 print('\n')
+
