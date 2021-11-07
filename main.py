@@ -6,7 +6,7 @@
     Make your own ASCII: https://cloudapps.herokuapp.com/imagetoascii/
 '''
 
-from art import saylor
+from art import big_saylor as saylor
 from helpers import *
 
 width = 40 #in chars -> 80 in hex
@@ -18,4 +18,6 @@ saylor_return = insert_carriage_return_bytes(saylor_bytes, width)
 print('\n')
 print(saylor_return.decode('ascii'))
 print('\n')
+print('hexmessage:', saylor_return.hex(), '\n')
+print('Deploy this as a message in the bitcoin node.')
 
